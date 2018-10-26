@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { withRouter } from 'next/router'
+import { withRouter } from '@weld-io/weld-next/router'
 
 class PageA extends React.Component {
   goToB () {

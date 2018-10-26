@@ -1,1 +1,1 @@
-module.exports = require('next/error')
+module.exports = require('@weld-io/weld-next/error')

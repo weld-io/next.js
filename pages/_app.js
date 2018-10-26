@@ -1,1 +1,1 @@
-module.exports = require('next/app')
+module.exports = require('@weld-io/weld-next/app')

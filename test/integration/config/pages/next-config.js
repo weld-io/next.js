@@ -1,4 +1,4 @@
-import getConfig from 'next/config'
+import getConfig from '@weld-io/weld-next/config'
 const {serverRuntimeConfig, publicRuntimeConfig} = getConfig()
 
 export default () => <div>

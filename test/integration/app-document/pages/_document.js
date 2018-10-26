@@ -1,5 +1,5 @@
 import crypto from 'crypto'
-import Document, { Head, Main, NextScript } from 'next/document'
+import Document, { Head, Main, NextScript } from '@weld-io/weld-next/document'
 
 const cspHashOf = (text) => {
   const hash = crypto.createHash('sha256')

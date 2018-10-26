@@ -1,6 +1,6 @@
 import { Component } from 'react'
-import Link from 'next/link'
-import Router from 'next/router'
+import Link from '@weld-io/weld-next/link'
+import Router from '@weld-io/weld-next/router'
 
 let getInitialPropsRunCount = 1
 

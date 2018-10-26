@@ -1,4 +1,4 @@
-import App, { Container } from 'next/app'
+import App, { Container } from '@weld-io/weld-next/app'
 import React from 'react'
 import HeaderNav from '../components/header-nav'
 

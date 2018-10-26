@@ -1,4 +1,4 @@
-import { withRouter } from 'next/router'
+import { withRouter } from '@weld-io/weld-next/router'
 
 const Link = withRouter(({router, children, href}) => {
   const handleClick = (e) => {

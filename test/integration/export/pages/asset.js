@@ -1,4 +1,4 @@
-import asset from 'next/asset'
+import asset from '@weld-io/weld-next/asset'
 
 export default () => (
   <div id='asset-page'>

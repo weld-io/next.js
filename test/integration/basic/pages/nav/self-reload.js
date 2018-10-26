@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import Link from 'next/link'
+import Link from '@weld-io/weld-next/link'
 
 let count = 0
 

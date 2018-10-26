@@ -11,10 +11,10 @@ import fkill from 'fkill'
 // `next` here is the symlink in `test/node_modules/next` which points to the root directory.
 // This is done so that requiring from `next` works.
 // The reason we don't import the relative path `../../dist/<etc>` is that it would lead to inconsistent module singletons
-import server from 'next/dist/server/next'
-import build from 'next/dist/build'
-import _export from 'next/dist/export'
-import _pkg from 'next/package.json'
+import server from '@weld-io/weld-next/dist/server/next'
+import build from '@weld-io/weld-next/dist/build'
+import _export from '@weld-io/weld-next/dist/export'
+import _pkg from '@weld-io/weld-next/package.json'
 
 export const nextServer = server
 export const nextBuild = build

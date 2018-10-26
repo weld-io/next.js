@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from '@weld-io/weld-next/link'
 
 export default () => (
   <div id='level1-about-page'>

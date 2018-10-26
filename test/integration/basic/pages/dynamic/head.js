@@ -1,5 +1,5 @@
-import dynamic from 'next/dynamic'
-import Head from 'next/head'
+import dynamic from '@weld-io/weld-next/dynamic'
+import Head from '@weld-io/weld-next/head'
 
 const Test = dynamic({
   loader: async () => {

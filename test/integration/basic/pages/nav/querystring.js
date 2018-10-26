@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
+import Link from '@weld-io/weld-next/link'
 
 export default class AsyncProps extends React.Component {
   static async getInitialProps ({ query: { id = 0 } }) {

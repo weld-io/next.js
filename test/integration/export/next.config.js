@@ -1,4 +1,4 @@
-const {PHASE_DEVELOPMENT_SERVER} = require('next/constants')
+const {PHASE_DEVELOPMENT_SERVER} = require('@weld-io/weld-next/constants')
 
 module.exports = (phase) => {
   return {
