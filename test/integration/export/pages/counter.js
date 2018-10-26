@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from '@weld-io/weld-next/link'
+import Link from 'weld-next/link'
 
 let counter = 0
 

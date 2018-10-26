@@ -1,5 +1,5 @@
 const micro = require('micro')
-const next = require('@weld-io/weld-next')
+const next = require('weld-next')
 
 const dev = process.env.NODE_ENV !== 'production'
 const dir = __dirname

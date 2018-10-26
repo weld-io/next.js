@@ -1,5 +1,5 @@
 /* eslint-disable */
-import dynamic from '@weld-io/weld-next/dynamic'
+import dynamic from 'weld-next/dynamic'
 
 const Hello = dynamic(import(/* webpackChunkName: 'hello1' */ '../../components/hello3'))
 const Hello2 = dynamic(import(/* webpackChunkName: 'hello2' */ '../../components/hello4'))

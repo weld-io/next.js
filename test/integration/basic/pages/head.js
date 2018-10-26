@@ -1,5 +1,5 @@
 import React from 'react'
-import Head from '@weld-io/weld-next/head'
+import Head from 'weld-next/head'
 
 export default () => <div>
   <Head>

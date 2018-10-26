@@ -18,7 +18,7 @@ The `router` property that is injected will hold the same values as `url`, like 
 Here's an example of using `withRouter`:
 
 ```js
-import { withRouter } from '@weld-io/weld-next/router'
+import { withRouter } from 'weld-next/router'
 
 class Page extends React.Component {
   render() {

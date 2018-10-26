@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import Link from '@weld-io/weld-next/link'
+import Link from 'weld-next/link'
 
 export default class OnClick extends Component {
   static getInitialProps ({ res, query: {count} }) {

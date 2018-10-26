@@ -1,6 +1,6 @@
 import React from 'react'
-import dynamic from '@weld-io/weld-next/dynamic'
-import Router from '@weld-io/weld-next/router'
+import dynamic from 'weld-next/dynamic'
+import Router from 'weld-next/router'
 import PropTypes from 'prop-types'
 
 const HelloBundle = dynamic({

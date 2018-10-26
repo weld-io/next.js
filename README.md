@@ -797,7 +797,7 @@ This example makes `/a` resolve to `./pages/b`, and `/b` resolve to `./pages/a`:
 // See https://github.com/zeit/next.js/issues/1245 for discussions on Universal Webpack or universal Babel
 const { createServer } = require('http')
 const { parse } = require('url')
-const next = require('@weld-io/weld-next')
+const next = require('weld-next')
 
 const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
@@ -864,7 +864,7 @@ For that, we can use `app.setAssetPrefix`.
 Here's an example usage of it:
 
 ```js
-const next = require('@weld-io/weld-next')
+const next = require('weld-next')
 const micro = require('micro')
 
 const dev = process.env.NODE_ENV !== 'production'
@@ -1171,7 +1171,7 @@ module.exports = (phase, {defaultConfig}) => {
 Phases can be imported from `next/constants`:
 
 ```js
-const {PHASE_DEVELOPMENT_SERVER} = require('@weld-io/weld-next/constants')
+const {PHASE_DEVELOPMENT_SERVER} = require('weld-next/constants')
 module.exports = (phase, {defaultConfig}) => {
   if(phase === PHASE_DEVELOPMENT_SERVER) {
     return {

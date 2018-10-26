@@ -1,4 +1,4 @@
-import App, { Container } from '@weld-io/weld-next/app'
+import App, { Container } from 'weld-next/app'
 import React from 'react'
 
 import '../styles.css'

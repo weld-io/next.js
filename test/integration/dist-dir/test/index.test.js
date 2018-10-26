@@ -2,7 +2,7 @@
 
 import { join } from 'path'
 import { existsSync } from 'fs'
-import {BUILD_ID_FILE} from '@weld-io/weld-next/constants'
+import {BUILD_ID_FILE} from 'weld-next/constants'
 import {
   nextServer,
   nextBuild,

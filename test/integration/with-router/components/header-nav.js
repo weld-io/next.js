@@ -1,6 +1,6 @@
 import * as React from 'react'
-import Router, { withRouter } from '@weld-io/weld-next/router'
-import Link from '@weld-io/weld-next/link'
+import Router, { withRouter } from 'weld-next/router'
+import Link from 'weld-next/link'
 
 const pages = {
   '/a': 'Foo',

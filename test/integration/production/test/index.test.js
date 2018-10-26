@@ -16,7 +16,7 @@ import fetch from 'node-fetch'
 import dynamicImportTests from './dynamic'
 import processEnv from './process-env'
 import security from './security'
-import {BUILD_MANIFEST, REACT_LOADABLE_MANIFEST} from '@weld-io/weld-next/constants'
+import {BUILD_MANIFEST, REACT_LOADABLE_MANIFEST} from 'weld-next/constants'
 
 const appDir = join(__dirname, '../')
 let appPort

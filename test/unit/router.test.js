@@ -1,5 +1,5 @@
 /* global describe, it, expect */
-import Router from '@weld-io/weld-next/dist/lib/router/router'
+import Router from 'weld-next/dist/lib/router/router'
 
 class PageLoader {
   constructor (options = {}) {

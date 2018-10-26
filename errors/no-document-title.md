@@ -10,8 +10,8 @@ Set `<title>` in `pages/_app.js` instead :
 
 ```js
 // pages/_app.js
-import App, {Container} from '@weld-io/weld-next/app'
-import Head from '@weld-io/weld-next/head'
+import App, {Container} from 'weld-next/app'
+import Head from 'weld-next/head'
 import React from 'react'
 
 export default class MyApp extends App {

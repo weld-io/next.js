@@ -1,4 +1,4 @@
-import Link from '@weld-io/weld-next/link'
+import Link from 'weld-next/link'
 
 const UnexpectedNestedA = () => {
   const UnexpectedWrapper = (props) => {

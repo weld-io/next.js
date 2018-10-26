@@ -1,4 +1,4 @@
-import Router from '@weld-io/weld-next/router'
+import Router from 'weld-next/router'
 
 const Page = () => (
   <p>This is the page</p>

@@ -1,6 +1,6 @@
-import Link from '@weld-io/weld-next/link'
+import Link from 'weld-next/link'
 import { Component } from 'react'
-import Router from '@weld-io/weld-next/router'
+import Router from 'weld-next/router'
 
 let counter = 0
 

@@ -1,4 +1,4 @@
-import dynamic from '@weld-io/weld-next/dynamic'
+import dynamic from 'weld-next/dynamic'
 
 const Hello = dynamic(import('../../components/hello.js'))
 

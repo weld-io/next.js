@@ -1,6 +1,6 @@
 import React from 'react'
-import Head from '@weld-io/weld-next/head'
-import Link from '@weld-io/weld-next/link'
+import Head from 'weld-next/head'
+import Link from 'weld-next/link'
 
 export default (props) => <div id='head-1'>
   <Head>

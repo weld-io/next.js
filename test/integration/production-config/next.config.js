@@ -8,7 +8,7 @@ module.exports = withCSS(withSass({
   },
   webpack (config, {buildId}) {
     // When next-css is `npm link`ed we have to solve loaders from the project root
-    const nextLocation = path.join(require.resolve('@weld-io/weld-next/package.json'), '../')
+    const nextLocation = path.join(require.resolve('weld-next/package.json'), '../')
     const nextCssNodeModulesLocation = path.join(
       require.resolve('@zeit/next-css'),
       '../../../node_modules'

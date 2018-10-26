@@ -1,6 +1,6 @@
 /* global location */
 import React from 'react'
-import Link from '@weld-io/weld-next/link'
+import Link from 'weld-next/link'
 
 export default class DynamicPage extends React.Component {
   static getInitialProps ({ query }) {

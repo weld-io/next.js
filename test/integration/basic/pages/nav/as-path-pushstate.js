@@ -1,5 +1,5 @@
-import Link from '@weld-io/weld-next/link'
-import {withRouter} from '@weld-io/weld-next/router'
+import Link from 'weld-next/link'
+import {withRouter} from 'weld-next/router'
 
 export default withRouter(({router: {asPath, query}}) => {
   return <div id={asPath.replace('/', '').replace('/', '-')}>

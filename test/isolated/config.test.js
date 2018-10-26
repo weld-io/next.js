@@ -1,8 +1,8 @@
 /* global describe, it, expect */
 
 import {join} from 'path'
-import loadConfig from '@weld-io/weld-next/dist/server/config'
-import {PHASE_DEVELOPMENT_SERVER} from '@weld-io/weld-next/constants'
+import loadConfig from 'weld-next/dist/server/config'
+import {PHASE_DEVELOPMENT_SERVER} from 'weld-next/constants'
 
 const pathToConfig = join(__dirname, '_resolvedata', 'without-function')
 const pathToConfigFn = join(__dirname, '_resolvedata', 'with-function')

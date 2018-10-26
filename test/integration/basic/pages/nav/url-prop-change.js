@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from '@weld-io/weld-next/link'
+import Link from 'weld-next/link'
 
 export default class UrlPropChange extends React.Component {
   constructor (props) {

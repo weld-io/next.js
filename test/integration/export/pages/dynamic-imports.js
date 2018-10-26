@@ -1,5 +1,5 @@
-import Link from '@weld-io/weld-next/link'
-import dynamic from '@weld-io/weld-next/dynamic'
+import Link from 'weld-next/link'
+import dynamic from 'weld-next/dynamic'
 
 const DynamicComponent = dynamic(import('../components/hello'))
 
